@@ -15,3 +15,11 @@ img {
     font-size: 12px;
     color:gray
 } 
+.brd {
+    border: 1px solid lightgray;
+    padding: 9px;
+    border-radius: .25rem; }
+
+.linegray{
+    border-bottom: 1px solid lightgray;
+}
