@@ -4,3 +4,14 @@ img {
  td .bi {
     color: darkgray;
 }
+.txt-blk{
+    color: black;
+} 
+
+::placeholder {
+    text-decoration: none;
+}
+.lil-txt {
+    font-size: 12px;
+    color:gray
+} 
