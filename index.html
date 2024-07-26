@@ -56,7 +56,7 @@
             <div class="col-12"> <div class="flex-cont d-flex justify-content-between my-3"><h2>Catalogo Libri</h2> <a href="page_2.html" <button type="button" class="btn btn-primary text-center"> Aggiungi Libro </button></a></div></div>
           </div>
           <div class="row justify-content-end">
-            <div class="col-12 col-lg-8"><table class="table  table-striped">
+            <div class="col-12 col-lg-8"><table class="table  table-expand-md table-striped">
               <thead>
                 <tr>
                   <th scope="col">Titolo</th>
@@ -206,19 +206,63 @@
 
           <div class="col-12 col-lg-4 ">
             <div class="card my-3 ">
-              <h5 class="card-header">Featured</h5>
+              <h5 class="card-header">Todo</h5>
               <div class="card-body">
-                <h5 class="card-title">Special title treatment</h5>
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label" for="flexCheckDefault">
+                   Chiamare Segretaria
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label" for="flexCheckDefault">
+                  Mandare avvisi prestiti scaduti
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label" for="flexCheckDefault">
+                   Ordinare nuovi libri
+                  </label>
+                </div>
               </div>
             </div>
             <div class="card my-3">
-              <h5 class="card-header">Featured</h5>
+              <h5 class="card-header">F.A.Q.</h5>
               <div class="card-body">
-                <h5 class="card-title">Special title treatment</h5>
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                       Come aggiungere un nuovo libro?
+                      </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      Come posso accdere all'anagrafica?
+                      </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                     Posso usare questa dashboard da mobile?
+                      </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
